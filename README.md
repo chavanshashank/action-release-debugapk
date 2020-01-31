@@ -7,7 +7,7 @@ Add a target branch (eg. master) to build the APK to prevent infinite loop (rele
 
 ### Secrets
 
-You'll need to provide this secret token to use the action (for publishing the APK). **Enter these secrets in your Settings > Secrets create that token as follows:**
+You'll need to provide this secret token to use the action (for publishing the APK). Enter these secrets in your **Repo Settings > Secrets create that token as follows:**
 
 * **TOKEN**: Create a new [access token](https://github.com/settings/tokens) with `repo` access.
 
