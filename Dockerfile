@@ -16,7 +16,7 @@ RUN apt update \
 	&& apt autoclean \
 	&& apt clean
 	
-RUN git config --global --add safe.directory /github/workspace
+RUN git config --global --add safe.directory '*'
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
