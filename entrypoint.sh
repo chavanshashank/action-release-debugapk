@@ -1,5 +1,6 @@
 #!/bin/bash
 
+git config --global --add safe.directory '*'
 hub checkout master
 VERSION_NAME=`grep -oP 'versionName "\K(.*?)(?=")' ./${APP_FOLDER}/build.gradle`
 VERSION_CODE=`date '+%Y%m%d'`
